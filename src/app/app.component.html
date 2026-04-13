@@ -1,33 +1,54 @@
-<!DOCTYPE html>
-<html lang="fr">
+<div id="background"></div>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>portfolio</title>
-</head>
+<div class="blur-side blur-left"></div>
+<div class="blur-side blur-right"></div>
 
+<div id="parralax">
 
-<body>
+  <div id="lastPlan">
+    <div class="LpImg LpImg1">
+      <figure>
+        <img [src]="lastPlan" alt="">
+      </figure>
+    </div>
+    <div class="LpImg LpImg2">
+      <figure>
+        <img [src]="lastPlan" alt="">
+      </figure>
+    </div>
+    <div class="LpImg LpImg3">
+      <figure>
+        <img [src]="lastPlan" alt="">
+      </figure>
+    </div>
+    <figcaption>Dernier plan</figcaption>
+  </div>
+  <!-- <figure id="middlePlan">
+    <img [src]="middlePlan" alt="">
+    <figcaption>Plan du milieu</figcaption>
+  </figure> -->
+  <div id="firstPlan">
+    <div class="img img1">
+      <figure>
+        <img [src]="firstPlan" alt="">
+      </figure>
+    </div>
+    <div class="img img2">
+      <figure>
+        <img [src]="firstPlan" alt="">
+      </figure>
+    </div>
+    <div class="img img3">
+      <figure>
+        <img [src]="firstPlan" alt="">
+      </figure>
+    </div>
+    <figcaption>Premier plan</figcaption>
+  </div>
 
-  <div id="parralax">
-
-    <div id="background"></div>
-    <figure>
-      <img [src]="lastPlan" alt="">
-      <figcaption>Dernier plan</figcaption>
-    </figure>
-    <figure>
-      <img [src]="middlePlan" alt="">
-      <figcaption>Plan du milieu</figcaption>
-    </figure>
-    <figure>
-      <img [src]="firstPlan" alt="">
-      <figcaption>Premier plan</figcaption>
-    </figure>
+  <div id="projets">
 
   </div>
 
-</body>
 
-</html>
+</div>

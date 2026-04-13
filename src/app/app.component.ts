@@ -3,7 +3,6 @@ import { RouterOutlet } from '@angular/router';
 import { Projet } from './models/projet.model';
 import { bckgrd_img, last_plan, middle_plan, first_plan } from '../const/const';
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
