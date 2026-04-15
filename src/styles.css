@@ -112,3 +112,40 @@ body {
         transform: translateX(-100%);
     }
 }
+
+@media only screen and (min-width : 1224px) and (max-width : 1824px) {
+
+    body {
+        overflow-y: hidden;
+    }
+
+    /* Styles pour cette Media Queries */
+    #background {
+        background-size: cover;
+    }
+
+    #lastPlan {
+        overflow-x: visible;
+        left: 0%;
+        width: 100%;
+    }
+
+    #firstPlan {
+        overflow-x: visible;
+        left: 0%;
+        width: 100%;
+
+    }
+
+    .img {
+        width: 100%;
+
+    }
+
+
+    .LpImg {
+        width: 100%;
+    }
+
+
+}
